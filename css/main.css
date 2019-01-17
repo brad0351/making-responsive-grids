@@ -6,16 +6,18 @@
 
 html {
   box-sizing: border-box;
+  
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
+
 
 body {
   margin: 0;
@@ -23,5 +25,5 @@ body {
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
